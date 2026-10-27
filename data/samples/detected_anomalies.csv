@@ -1,0 +1,6 @@
+anomaly_id,issue_type,description,affected_record_ids,expected_decision,ground_truth
+DET-dda5a99bbdfb,paid_account_in_collection,Open collection case has no arrears,COL-2026-000001|LOAN-2026-000001,close_case,
+DET-31fa4e19a61e,disputed_debt_treated_as_confirmed,Disputed case is assigned routine contact action,COL-2026-000002|LOAN-2026-000002,pause_collection_and_review,
+DET-df52d3876bba,contact_outside_window,Contact attempt violates the effective preference or contact window,CTP-COL-2026-000001-001|COL-2026-000001,block_and_reschedule,
+DET-d47e7c83aaab,wrong_installment_allocation,Allocation installment belongs to a different loan,PMT-2026-000139|LOAN-2026-000002|INS-LOAN-2026-000001-001,quarantine_and_review,
+DET-d640993d89d6,promise_exceeds_arrears,Promise amount exceeds case arrears,PTP-ANOM-0001|COL-2026-000002,reject_or_manual_review,

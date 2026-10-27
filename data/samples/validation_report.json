@@ -1,0 +1,26 @@
+{
+  "anomaly_evaluation": {
+    "false_negative": 0,
+    "false_positive": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positive": 5,
+    "unit": "(issue_type, first affected record ID)"
+  },
+  "dataset_note": "The injected wrong-installment exception is intentionally represented as an invalid allocation for retrospective detection.",
+  "errors": [],
+  "foreign_keys_checked": true,
+  "row_counts": {
+    "accounts": 100,
+    "collection_cases": 100,
+    "contact_attempts": 5,
+    "contact_preferences": 100,
+    "customers": 100,
+    "delinquency_snapshots": 100,
+    "installments": 300,
+    "loans": 100,
+    "payments": 137,
+    "promises_to_pay": 4
+  },
+  "valid": true
+}

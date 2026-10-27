@@ -1,0 +1,27 @@
+{
+  "anomalies_injected": true,
+  "data_provenance": {
+    "external_sources": [],
+    "generator": "app.generator.generate_dataset",
+    "type": "synthetic"
+  },
+  "generation_period_months": 12,
+  "installment_schedule": "3 equal-principal monthly installments per loan",
+  "loan_count": 100,
+  "money_unit": "integer paise",
+  "reporting_date": "2026-10-26",
+  "row_counts": {
+    "accounts": 100,
+    "collection_cases": 100,
+    "contact_attempts": 5,
+    "contact_preferences": 100,
+    "customers": 100,
+    "delinquency_snapshots": 100,
+    "event_history": 148,
+    "installments": 300,
+    "loans": 100,
+    "payments": 137,
+    "promises_to_pay": 4
+  },
+  "seed": 20261022
+}

@@ -1,0 +1,6 @@
+anomaly_id,issue_type,description,affected_record_ids,expected_decision,ground_truth
+ANOM-001,paid_account_in_collection,Paid-off loan remains open in collections,COL-2026-000001|LOAN-2026-000001,close_case,anomaly
+ANOM-002,contact_outside_window,Contact was made outside the local permitted contact window,CTP-COL-2026-000001-001|COL-2026-000001,block_and_reschedule,anomaly
+ANOM-003,wrong_installment_allocation,Payment references an installment belonging to another loan,PMT-2026-000139|LOAN-2026-000002|INS-LOAN-2026-000001-001,quarantine_and_review,anomaly
+ANOM-004,promise_exceeds_arrears,Promise amount exceeds current arrears,PTP-ANOM-0001|COL-2026-000002,reject_or_manual_review,anomaly
+ANOM-005,disputed_debt_treated_as_confirmed,Disputed debt is presented as an ordinary open collection case,COL-2026-000002|LOAN-2026-000002,pause_collection_and_review,anomaly

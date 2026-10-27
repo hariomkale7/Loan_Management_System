@@ -1,0 +1,6 @@
+contact_attempt_id,case_id,attempted_at,channel,outcome,compliance_status
+CTP-COL-2026-000026-001,COL-2026-000026,2026-10-26T14:00:00Z,phone,no_answer,allowed
+CTP-COL-2026-000052-001,COL-2026-000052,2026-10-26T04:30:00Z,phone,no_answer,allowed
+CTP-COL-2026-000078-001,COL-2026-000078,2026-10-26T10:00:00Z,phone,no_answer,allowed
+CTP-COL-2026-000091-001,COL-2026-000091,2026-10-26T04:30:00Z,phone,no_answer,allowed
+CTP-COL-2026-000001-001,COL-2026-000001,2026-10-26T23:30:00Z,phone,connected,injected_exception
