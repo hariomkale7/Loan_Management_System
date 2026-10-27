@@ -21,7 +21,7 @@ PowerShell may block activation; use `Set-ExecutionPolicy -Scope Process Bypass`
 ```powershell
 python -m app.cli generate --loans 10000 --seed 20261022 --reporting-date 2026-10-26 --output data\full
 uvicorn app.api:app --reload
-streamlit run app/dashboard.py
+python -m streamlit run app/dashboard.py
 ```
 
 All generated data is fictional. A fixed seed plus fixed reporting date gives stable files and checksums. Anomalies are separately labeled in `ground_truth.csv`; the detector operates on operational records alone. `--no-anomalies` omits the deliberate anomaly fixtures. The generator uses exactly three monthly installments per loan over the 12-month reporting horizon (a 3-installment schedule is a simplified challenge fixture, not a claim about real lending products).
